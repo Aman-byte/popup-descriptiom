@@ -1,0 +1,36 @@
+.product {
+  position: relative;
+}
+
+.description-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.description-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.description-content h3 {
+  margin-top: 0;
+}
+
+.description-content p {
+  margin-bottom: 20px;
+}
+
+.description-content button {
+  display: block;
+  margin: 0 auto;
+}
